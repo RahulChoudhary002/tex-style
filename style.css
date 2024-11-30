@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+/* Text Styling */
+.colorful {
+    color: #6a1b9a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+.centered {
+    text-align: center;
+    color: #1e88e5;
+}
+
+.right {
+    text-align: right;
+    color: #388e3c;
+}
+
+/* Text Decoration */
+.overlined {
+    text-decoration: overline;
+    font-size: 1.4rem;
+    color: #d81b60;
+}
+
+.underlined {
+    text-decoration: underline;
+    font-size: 1.4rem;
+    color: #8e24aa;
+}
+
+.lined-both {
+    text-decoration: underline overline;
+    font-size: 1.4rem;
+    color: #43a047;
+}
+
+.shadowed {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    font-size: 1.8rem;
+    color: #fbc02d;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+    font-size: 1.4rem;
+    color: #d32f2f;
+}
+
+.word-spacing {
+    word-spacing: 10px;
+    font-size: 1.4rem;
+    color: #1976d2;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #37474f;
+    color: white;
+}
